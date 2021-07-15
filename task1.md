@@ -20,5 +20,5 @@ conda install paddlepaddle --channel https://mirrors.tuna.tsinghua.edu.cn/anacon
 https://gitee.com/coggle/tianchi-intel-PaddleOCR
 
 ## 关于baseline
-！[z] (https://github.com/aaaaaa745/master-cup/blob/main/Snipaste_2021-07-15_23-56-42.png)
+![z](https://github.com/aaaaaa745/master-cup/blob/main/Snipaste_2021-07-15_23-56-42.png)
 ## 大佬的配置
