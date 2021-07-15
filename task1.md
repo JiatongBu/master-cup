@@ -21,4 +21,19 @@ https://gitee.com/coggle/tianchi-intel-PaddleOCR
 
 ## 关于baseline
 ![z](https://github.com/aaaaaa745/master-cup/blob/main/Snipaste_2021-07-15_23-56-42.png)
-## 大佬的配置
+
+
+## 训练模型
+
+1.下载预训练模型
+
+为配置文件ch_det_res18_db_v2.0.yml的预训练模型, 进行下载和解压
+
+```cd inference
+wget https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_server_v2.0_det_train.tar
+tar -xf ch_ppocr_server_v2.0_det_train.tar
+```
+
+2.训练预训练模型
+
+    python tools/train.py -c configs/det/ch_ppocr_v2.0/ch_det_res18_db_v2.0.yml -o Global.pretrain_weights=./inference/ch_pp
